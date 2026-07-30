@@ -10,7 +10,7 @@
 			"step": "installTheme",
 			"themeData": {
 				"resource": "git:directory",
-				"url": "https://github.com/jdbg/wordpress-education-blocks",
+				"url": "https://github.com/maciejpilarski/wordpress-education-blocks",
 				"ref": "main"
 			},
 			"options": {

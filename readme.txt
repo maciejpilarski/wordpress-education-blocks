@@ -3,14 +3,14 @@ Contributors: maciejpilarski
 Requires at least: 6.6
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.4.2
+Stable tag: 1.5.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: education, one-page, full-site-editing, block-patterns, custom-colors, editor-style, block-styles, translation-ready
 
 A block (Full Site Editing) theme for open-source education initiatives.
 
-Try it instantly, no install required: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/jdbg/wordpress-education-blocks/main/blueprint.json
+Try it instantly, no install required: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/maciejpilarski/wordpress-education-blocks/main/blueprint.json
 
 == Description ==
 
@@ -37,7 +37,7 @@ read from the number you type, so they stay fully editable.
 = WordPress Playground =
 
 For a quick look with no install, open the theme in WordPress Playground:
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/jdbg/wordpress-education-blocks/main/blueprint.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/maciejpilarski/wordpress-education-blocks/main/blueprint.json
 
 This spins up a disposable, in-browser WordPress site with the theme installed
 and activated. Nothing is saved outside that browser tab.
@@ -75,6 +75,12 @@ They are block patterns (Appearance → Editor → Patterns → Education), and 
 also available in the block inserter when editing any page or template.
 
 == Changelog ==
+
+= 1.5.0 =
+* Added WordPress Playground support: a blueprint.json and "try it live" links
+  so the theme can be previewed in-browser or run locally via the Playground CLI
+  (contributed by Jordan Hlebarov). Repointed the Playground URLs to this
+  repository.
 
 = 1.4.2 =
 * Renamed the theme (as shown in the dashboard) to "WordPress Education

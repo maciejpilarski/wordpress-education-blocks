@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'WPEB_VERSION' ) ) {
-	define( 'WPEB_VERSION', '1.4.2' );
+	define( 'WPEB_VERSION', '1.5.0' );
 }
 
 /**
