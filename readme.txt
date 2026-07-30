@@ -10,6 +10,8 @@ Tags: education, one-page, full-site-editing, block-patterns, custom-colors, edi
 
 A block (Full Site Editing) theme for open-source education initiatives.
 
+Try it instantly, no install required: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/jdbg/wordpress-education-blocks/main/blueprint.json
+
 == Description ==
 
 A Full Site Editing theme that renders the WordPress Education landing page.
@@ -31,6 +33,21 @@ image. Statistics animate up from zero when scrolled into view; the target is
 read from the number you type, so they stay fully editable.
 
 == Installation ==
+
+= WordPress Playground =
+
+For a quick look with no install, open the theme in WordPress Playground:
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/jdbg/wordpress-education-blocks/main/blueprint.json
+
+This spins up a disposable, in-browser WordPress site with the theme installed
+and activated. Nothing is saved outside that browser tab.
+
+Or, with Node.js and the WordPress Playground CLI, run it locally from a
+checkout of this repository:
+
+`npx @wp-playground/cli@latest server --auto-mount`
+
+= Manual install =
 
 1. Appearance → Themes → Add New → Upload Theme.
 2. Upload `wordpress-education-blocks.zip` and click "Install Now", then
